@@ -1,8 +1,8 @@
 package bowling;
 
 public class PitchingScore {
-    private int firstScore;
-    private int secondScore;
+    private Score first;
+    private Score second;
 
     private PitchingScore() {
     }
@@ -12,14 +12,14 @@ public class PitchingScore {
     }
 
     public void firstPitching(int score) {
-        firstScore = score;
+        first = Score.create(score);
     }
 
     public void secondPitching(int score) {
-        secondScore = score;
+        second = Score.create(score);
     }
 
-    public int score() {
-        return firstScore + secondScore;
+    public Score score() {
+        return first.sum(second);
     }
 }

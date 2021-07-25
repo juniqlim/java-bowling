@@ -10,6 +10,6 @@ class PitchingScoreTest {
         PitchingScore pitchingScore = PitchingScore.create();
         pitchingScore.firstPitching(8);
         pitchingScore.secondPitching(1);
-        assertThat(pitchingScore.score()).isEqualTo(9);
+        assertThat(pitchingScore.score()).isEqualTo(Score.create(9));
     }
 }
