@@ -12,14 +12,14 @@ public class PitchingScore {
     }
 
     public void firstPitching(int score) {
-
+        firstScore = score;
     }
 
     public void secondPitching(int score) {
-
+        secondScore = score;
     }
 
     public int score() {
-        return 0;
+        return firstScore + secondScore;
     }
 }
