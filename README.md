@@ -7,3 +7,10 @@
 
 ## 온라인 코드 리뷰 과정
 * [텍스트와 이미지로 살펴보는 온라인 코드 리뷰 과정](https://github.com/next-step/nextstep-docs/tree/master/codereview)
+
+## 기능목록
+* 한게임은 10개의 프레임
+* 프레임
+  * 남은 피칭 여부 조회
+  * 점수 입력
+  * 보너스 점수 입력
